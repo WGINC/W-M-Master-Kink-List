@@ -216,7 +216,7 @@ function spreadAcrossColumns(array, partitioning) {
 
 const cssStylesheet = document.styleSheets[0];
 
-const defaultSettings = {
+const nsfwSettings = {
   legend: [
     ['Not Entered', '#FFFFFF'],
     ['Favorite'   , '#6DB5FE'],
@@ -225,11 +225,26 @@ const defaultSettings = {
     ['Maybe'      , '#DB6C00'],
     ['No'         , '#920000'],
   ],
-  data: "#Bodies\n(General)\n* Skinny\n* Chubby\n* Small breasts\n* Large breasts\n* Small cocks\n* Large cocks\n\n#Clothing\n(Self, Partner)\n* Clothed sex\n* Lingerie\n* Stockings\n* Heels\n* Leather\n* Latex\n* Uniform / costume\n* Cross-dressing\n\n#Groupings\n(General)\n* You and 1 male\n* You and 1 female\n* You and MtF trans\n* You and FtM trans\n* You and 1 male, 1 female\n* You and 2 males\n* You and 2 females\n* Orgy\n\n#General\n(Giving, Receiving)\n* Romance / Affection\n* Handjob / fingering\n* Blowjob\n* Deep throat\n* Swallowing\n* Facials\n* Cunnilingus\n* Face-sitting\n* Edging\n* Teasing\n* JOI, SI\n\n#Ass play\n(Giving, Receiving)\n* Anal toys\n* Anal sex, pegging\n* Rimming\n* Double penetration\n* Anal fisting\n\n#Restrictive\n(Self, Partner)\n* Gag\n* Collar\n* Leash\n* Chastity\n* Bondage (Light)\n* Bondage (Heavy)\n* Encasement\n\n#Toys\n(Self, Partner)\n* Dildos\n* Plugs\n* Vibrators\n* Sounding\n\n#Domination\n(Dominant, Submissive)\n* Dominant / Submissive\n* Domestic servitude\n* Slavery\n* Pet play\n* DD/lg, MD/lb\n* Discipline\n* Begging\n* Forced orgasm\n* Orgasm control\n* Orgasm denial\n* Power exchange\n\n#No consent\n(Aggressor, Target)\n* Non-con / rape\n* Blackmail / coercion\n* Kidnapping\n* Drugs / alcohol\n* Sleep play\n\n#Taboo\n(General)\n* Incest\n* Ageplay\n* Interracial / Raceplay\n* Bestiality\n* Necrophilia\n* Cheating\n* Exhibitionism\n* Voyeurism\n\n#Surrealism\n(Self, Partner)\n* Futanari\n* Furry\n* Vore\n* Transformation\n* Tentacles\n* Monster or Alien\n\n#Fluids\n(General)\n* Blood\n* Watersports\n* Scat\n* Lactation\n* Diapers\n* Cum play\n\n#Degradation\n(Giving, Receiving)\n* Glory hole\n* Name calling\n* Humiliation\n\n#Touch & Stimulation\n(Actor, Subject)\n* Cock/Pussy worship\n* Ass worship\n* Foot play\n* Tickling\n* Sensation play\n* Electro stimulation\n\n#Misc. Fetish\n(Giving, Receiving)\n* Fisting\n* Gangbang\n* Breath play\n* Impregnation\n* Pregnancy\n* Feminization\n* Cuckold / Cuckquean\n\n#Pain\n(Giving, Receiving)\n* Light pain\n* Heavy pain\n* Nipple clamps\n* Clothes pins\n* Caning\n* Flogging\n* Beating\n* Spanking\n* Cock/Pussy slapping\n* Cock/Pussy torture\n* Hot Wax\n* Scratching\n* Biting\n* Cutting",
+  data: "$Kinklist\n#Bodies\n(General)\n* Skinny\n* Chubby\n* Small breasts\n* Large breasts\n* Small cocks\n* Large cocks\n\n#Clothing\n(Self, Partner)\n* Clothed sex\n* Lingerie\n* Stockings\n* Heels\n* Leather\n* Latex\n* Uniform / costume\n* Cross-dressing\n\n#Groupings\n(General)\n* You and 1 male\n* You and 1 female\n* You and MtF trans\n* You and FtM trans\n* You and 1 male, 1 female\n* You and 2 males\n* You and 2 females\n* Orgy\n\n#General\n(Giving, Receiving)\n* Romance / Affection\n* Handjob / fingering\n* Blowjob\n* Deep throat\n* Swallowing\n* Facials\n* Cunnilingus\n* Face-sitting\n* Edging\n* Teasing\n* JOI, SI\n\n#Ass play\n(Giving, Receiving)\n* Anal toys\n* Anal sex, pegging\n* Rimming\n* Double penetration\n* Anal fisting\n\n#Restrictive\n(Self, Partner)\n* Gag\n* Collar\n* Leash\n* Chastity\n* Bondage (Light)\n* Bondage (Heavy)\n* Encasement\n\n#Toys\n(Self, Partner)\n* Dildos\n* Plugs\n* Vibrators\n* Sounding\n\n#Domination\n(Dominant, Submissive)\n* Dominant / Submissive\n* Domestic servitude\n* Slavery\n* Pet play\n* DD/lg, MD/lb\n* Discipline\n* Begging\n* Forced orgasm\n* Orgasm control\n* Orgasm denial\n* Power exchange\n\n#No consent\n(Aggressor, Target)\n* Non-con / rape\n* Blackmail / coercion\n* Kidnapping\n* Drugs / alcohol\n* Sleep play\n\n#Taboo\n(General)\n* Incest\n* Ageplay\n* Interracial / Raceplay\n* Bestiality\n* Necrophilia\n* Cheating\n* Exhibitionism\n* Voyeurism\n\n#Surrealism\n(Self, Partner)\n* Futanari\n* Furry\n* Vore\n* Transformation\n* Tentacles\n* Monster or Alien\n\n#Fluids\n(General)\n* Blood\n* Watersports\n* Scat\n* Lactation\n* Diapers\n* Cum play\n\n#Degradation\n(Giving, Receiving)\n* Glory hole\n* Name calling\n* Humiliation\n\n#Touch & Stimulation\n(Actor, Subject)\n* Cock/Pussy worship\n* Ass worship\n* Foot play\n* Tickling\n* Sensation play\n* Electro stimulation\n\n#Misc. Fetish\n(Giving, Receiving)\n* Fisting\n* Gangbang\n* Breath play\n* Impregnation\n* Pregnancy\n* Feminization\n* Cuckold / Cuckquean\n\n#Pain\n(Giving, Receiving)\n* Light pain\n* Heavy pain\n* Nipple clamps\n* Clothes pins\n* Caning\n* Flogging\n* Beating\n* Spanking\n* Cock/Pussy slapping\n* Cock/Pussy torture\n* Hot Wax\n* Scratching\n* Biting\n* Cutting",
   state: '',
   username: "Anonymous",
 }
 
+const sfwSettings = {
+  legend: [
+    ['Not Entered', '#FFFFFF'],
+    ['Favorite'   , '#6DB5FE'],
+    ['Like'       , '#23FD22'],
+    ['Okay'       , '#FDFD6B'],
+    ['Maybe'      , '#DB6C00'],
+    ['No'         , '#920000'],
+  ],
+  data: '$Preference List\n#Pizza\n(Toppings)\n* Pepperoni\n* Cheese\n* Mushrooms\n* Peppers\n* Hot peppers\n* Chicken\n* Ham\n* Corn\n* Pineapples\n\n#Ice Cream\n(Flavors)\n* Vanilla\n* Chocolate\n* Strawberry\n* Banana\n* Pistachio\n* Bubblegum\n* Watermelon\n\n#Soda\n(Flavors)\n* Orange\n* Lemon\n* Cola\n* Cherry\n* Mint',
+  state: '',
+  username: "Anonymous",
+}
+
+const defaultSettings = sfwSettings
 
 
 class KinklistError extends Error {
@@ -607,6 +622,7 @@ class Kinklist {
   get preset() {return this._preset};
   get data() {return this._data};
   get legend() {return this._legend};
+  get title() {return this._title};
   set preset(value) {
     this._preset = value;
     this.legend = value.legend;
@@ -622,6 +638,11 @@ class Kinklist {
     this._legend = value;
     this.interface.updateColors();
     this.interface.updateLegend();
+  }
+  set title(value) {
+    this._title = value
+    let titleSpan = document.querySelector(".title > span");
+    titleSpan.textContent = value
   }
   get kinks() {
     const kinks = this.categories.map(category => category.kinks)
@@ -687,6 +708,12 @@ class Kinklist {
           .split('\n')
           .map(kinkString => kinkString.replace(/\*\s*/, ''));
       categories.push(category);
+    }
+
+    const titleRegexp = new RegExp(/\$(.+)\n/)
+    let title;
+    if ((title = titleRegexp.exec(this.data))) {
+      this.title = title[1]
     }
 
     const newCategories = [];
@@ -826,7 +853,7 @@ class KinklistCanvasDrawer {
   }
 
   get filename() {
-  	return `Kinklist (${this.username}).png`;
+  	return `${this.kinklist.title} (${this.username}).png`;
   }
 
   createCanvas(height = this.settings.canvas.height,
@@ -978,7 +1005,7 @@ class KinklistCanvasDrawer {
     let y = margins.top;
 
     let titleDrawcall =
-        new Drawcall(x, y, {text: `Kinklist (${this.username})`,
+        new Drawcall(x, y, {text: `${this.kinklist.title} (${this.username})`,
                             font: font.title,
                             baseline: "top"});
     this.drawText(titleDrawcall, context);
@@ -1475,12 +1502,15 @@ class StorageHandler {
   constructor() {
     this.defaults = {
       imgurData: {},
-      presetDisplayNames: ["Default"],
+      presetDisplayNames: ["SFW", "NSFW"],
       //presetList: [/* Generated automatically below. */],
-      "--preset-default": defaultSettings.data,
-      "--legend-default": defaultSettings.legend,
-      "--state-default": defaultSettings.state,
-      currentPreset: "default",
+      "--preset-sfw": sfwSettings.data,
+      "--legend-sfw": sfwSettings.legend,
+      "--state-sfw": sfwSettings.state,
+      "--preset-nsfw": nsfwSettings.data,
+      "--legend-nsfw": nsfwSettings.legend,
+      "--state-nsfw": nsfwSettings.state,
+      currentPreset: "sfw",
     };
     const presetList = this.defaults.presetDisplayNames
         .map(displayName => toCSSClassName(displayName));

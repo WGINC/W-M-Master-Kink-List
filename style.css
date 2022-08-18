@@ -11,7 +11,7 @@ body {
 	                       * var(--min-buttons));
 	--max-menu-width: calc((var(--button-size) + var(--button-margin))
 	                       * var(--max-buttons));
-	--title-width: 120px;
+	--title-width: 250px;
 
 	--theme-color-main: #736DC0;
 	--theme-color-input: #0EB214;
