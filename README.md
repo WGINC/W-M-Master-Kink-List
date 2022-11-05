@@ -1,6 +1,6 @@
 # Kinklist Editor
 This application allows you to create and share your personal preferences with others. Easily customizable, flexible, and useful.
-You can view the application here: https://mobbutcher.github.io/KinkList/
+You can view the application here: https://wginc.github.io/W-M-Master-Kink-List/
 
 ## Entering preferences
 You can enter your preferences using buttons near each item.
